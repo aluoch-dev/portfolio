@@ -90,49 +90,51 @@
     <!--contact section-->
     <section id="contact">
             <div class="container">
-                <div>
+                <div style="text-align:center">
                     <h2>Contact Me</h2>
                     <span>Please leave me a message to work with me:</span>
                 </div>
 
                 <div class="row">
-                        <div id ="contact-form" class="contact-form">
-                            <form action="#">
-                                <div id="first-name" class="contact-form-class">
-                                    <label for="first_name">First Name</label>
-                                    <input type="text" id="fname" name="firstname" placeholder="Your first name..">
-                                </div>
+                    
+                    <div class="column">
+                        <img src="./images/contact.jpG" style="width:100%">
+                    </div>
+
+                    <div id ="contact-form" class="column contact-form">
+                        <form method="POST" action="#" >
+                            <div id="first-name" class="contact-form-class">
+                                <label for="first_name">First Name</label>
+                                <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+                            </div>
                                 
-                                <div id="last-name" class="contact-form-class">
-                                    <label for="last_name">Last Name</label>
-                                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                                </div>
+                            <div id="last-name" class="contact-form-class">
+                                <label for="last_name">Last Name</label>
+                                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                            </div>
 
-                                <div id="email" class="contact-form-class">                               
-                                    <label for="email">Email</label>
-                                    <input type="email" id="email" name="email" placeholder="Your email address..">
-                                </div>
+                            <div id="email" class="contact-form-class">                               
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Your email address..">
+                            </div>
 
-                                <div id="phone" class="contact-form-class">                               
-                                    <label for="phone">Phone Number</label>
-                                    <input type="email" id="email" name="email" placeholder="Your email address..">
-                                </div>
+                            <div id="phone" class="contact-form-class">                               
+                                <label for="phone">Phone Number</label>
+                                <input type="text" id="phone" name="phone" placeholder="Enter your phone number...">
+                            </div>
 
-                                <div id="subject" class="contact-form-class"></div>
-                                    <label for="subject">Subject</label>
-                                    <input type="text" id="subject" name="subject" placeholder="Subject..">
-                                </div> 
+                            <div id="subject" class="contact-form-class">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="Subject..">
+                            </div> 
                                 
-                                <div id="message" class="contact-form-class"></div>
-                                    <label for="message">Message</label>
-                                    <textarea id="message" name="message" placeholder="Write message.."></textarea>
-                                </div>
-
-                                <div id="submit-button" class="contact-form-class submit-button"></div>
-                                    <button type="submit" value="Submit"> Message </button>
-                                </div>
-                            </form>
-                        </div>
+                            <div id="message" class="contact-form-class">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" placeholder="Write message.."></textarea>
+                                <input type="submit" value="Submit">
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
     </section>
