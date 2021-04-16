@@ -18,7 +18,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Stick&display=swap" rel="stylesheet">
 
-    <title> Aluoch Laurine: Software Engineer</title>
+    <title> Aluoch Laurine| Fullstack Software Engineer</title>
 </head>
 <body>
 
@@ -51,9 +51,9 @@
     <!--about section-->
     <section id= "about">
         <center>
-            <Span>I am Laurine Aluoch. </span> 
-            <span>I am a fullstack software Developer. </span> 
-            <span>Read my qualifications <a href="#"><b><i>here</i></b></a>, and check out my work <a href="#"><b><i>here</i></b></a>.</span> 
+            <p id="identity">I am Laurine Aluoch. </p> 
+            <p id="description">I am a fullstack software Developer. </p> 
+            <p id ="action">Read my qualifications <a href="#"><b><i>here</i></b></a>, and check out my work <a href="#"><b><i>here</i></b></a>.</p> 
         </center>
     </section>
 
@@ -114,37 +114,37 @@
                             <div id="first-name" class="contact-form-class">    
                                 <label for="first_name">First Name</label>
                                 <input type="text" id="fname" name="firstname" placeholder="Your first name..">
-                                <span class= "error">*<?php echo $firstnameErr; ?></span>
+                                <span class= "error"><?php echo $firstnameErr; ?></span>
                             </div>
                                 
                             <div id="last-name" class="contact-form-class">
                                 <label for="last_name">Last Name</label>
                                 <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                                <span class= "error">* <?php echo $lastnameErr; ?></span>
+                                <span class= "error"><?php echo $lastnameErr; ?></span>
                             </div>
 
                             <div id="email" class="contact-form-class">                               
                                 <label for="email">Email</label>
                                 <input type="email" id="email" name="email" placeholder="Your email address..">
-                                <span class= "error">* <?php echo $emailErr; ?></span>
+                                <span class= "error"><?php echo $emailErr; ?></span>
                             </div>
 
                             <div id="phone" class="contact-form-class">                               
                                 <label for="phone">Phone Number</label>
                                 <input type="text" id="phone" name="phone" placeholder="Enter your phone number...">
-                                <span class= "error">* <?php echo $phoneErr; ?></span>
+                                <span class= "error"><?php echo $phoneErr; ?></span>
                             </div>
 
                             <div id="subject" class="contact-form-class">
                                 <label for="subject">Subject</label>
                                 <input type="text" id="subject" name="subject" placeholder="Subject..">
-                                <span class= "error">* <?php echo $subjectErr; ?></span>
+                                <span class= "error"><?php echo $subjectErr; ?></span>
                             </div> 
                                 
                             <div id="message" class="contact-form-class">
                                 <label for="message">Message</label>
                                 <textarea id="message" name="message" placeholder="Write message.."></textarea>
-                                <span class= "error">* <?php echo $messageErr; ?></span>
+                                <span class= "error"><?php echo $messageErr; ?></span>
                                 <input type="submit" value="Submit">
                             </div>
                         </form>
