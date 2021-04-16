@@ -22,6 +22,13 @@
 </head>
 <body>
 
+<!--header files-->
+    <?php
+    require 'contact.php';
+
+    ?>
+<!--end header files-->
+
     <!--header section-->
     <section id= "header">
         <div class="top-navigation" id="top-navigation">
@@ -104,7 +111,7 @@
                     <div id ="contact-form" class="column contact-form">
                         <form method="POST" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" >
 
-                            <div id="first-name" class="contact-form-class">
+                            <div id="first-name" class="contact-form-class">    
                                 <label for="first_name">First Name</label>
                                 <input type="text" id="fname" name="firstname" placeholder="Your first name..">
                                 <span class= "error">*<?php echo $firstnameErr; ?></span>
