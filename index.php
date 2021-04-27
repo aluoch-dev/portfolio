@@ -18,16 +18,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Stick&display=swap" rel="stylesheet">
 
-    <title> Aluoch Laurine| Fullstack Software Engineer</title>
+    <title> Aluoch Laurine| Fullstack Software Developer</title>
 </head>
 <body>
 
-<!--header files-->
-    <?php
-    require 'contact.php';
-
-    ?>
-<!--end header files-->
+    <!--header files-->
+        <?php
+        require 'contact.php';
+        ?>
+    <!--end header files-->
 
     <!--header section-->
     <section id= "header">
@@ -39,7 +38,7 @@
             <div id ="right-navigation" style="float: right;"> 
                 <a href="#about">About</a>
                 <a href="#qualifications">Qualifications</a>
-                <a href="#work">Work</a>
+                <a href="#projects">Projects</a>
                 <a href="#contact">Contact Me</a>
                 <a href="javascript:void(0);" class="icon" onclick="navigationIcon()">
                     <i class="fa fa-bars"></i>
@@ -50,11 +49,11 @@
 
     <!--about section-->
     <section id= "about">
-        <center>
+        <div class="home-content" id="home-content">
             <p id="identity">I am Laurine Aluoch. </p> 
             <p id="description">I am a fullstack software Developer. </p> 
-            <p id ="action">Read my qualifications <a href="#"><b><i>here</i></b></a>, and check out my work <a href="#"><b><i>here</i></b></a>.</p> 
-        </center>
+            <p id ="action">Read my qualifications <a href="#"><b><i>here</i></b></a>, and check out my completed Projects <a href="#"><b><i>here</i></b></a>.</p> 
+        </div>
     </section>
 
     <!--qualification section-->
@@ -80,18 +79,28 @@
         </center>   
     </section>
 
-    <!--work section-->
-    <section id= "work-samples">
-        <div id ="projects">
-            <div id="row-one-projects">
-                <div id="project-one"><h3>Personal Portfolio</h3></div>   
-                <div id="project-two"><h3>coffee Shop</h3></div>
+    <!--projects section-->
+    <section id= "projects"> 
+        <center>
+        <h2> PROJECTS</h2>
+            <div id ="projects" class="projects">
+                <div id="project-one" class="project-one">
+                    <h3>Personal Portfolio</h3>  
+                </div>
+
+                <div id="project-two" class="project-two">
+                    <h3>Coffee Shop</h3>  
+                </div>
+                
+                <div id="project-three" class="project-three">
+                    <h3>dairyYetu</h3>  
+                </div>
+
+                <div id="project-four" class="project-four">
+                    <h3>Holiday Finder</h3>  
+                </div>
             </div>
-            <div id ="row-two-projects">
-                <div id="project-one"><h3>dairyYetu</h3></div>   
-                <div id="project-two"><h3>Holiday Finder</h3></div>
-            </div>
-        </div>
+        </center>
     </section>
 
     <!--contact section-->
