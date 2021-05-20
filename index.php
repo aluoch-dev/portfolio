@@ -49,6 +49,9 @@
 
     <!--about section-->
     <section id= "about">
+        <div class="home-image" id="home-image">
+        </div> 
+
         <div class="home-content" id="home-content">
             <p id="identity">I am Laurine Aluoch. </p> 
             <p id="description">I am a fullstack software Developer. </p> 
